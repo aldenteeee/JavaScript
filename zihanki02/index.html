@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>自販機</title>
+  </head>
+
+  <body>
+
+
+    <div id="zihanki_button">
+      <div style="display: inline-block;"><input type="button" class="cola"><br>cola(150)</div>
+      <div style="display: inline-block;"><input type="button" class="greentea"><br>greentea(130)</div>
+      <div style="display: inline-block;"><input type="button" class="water"><br>water(100)</div>
+    </div>
+
+    <br>
+
+    <form>
+      <input id="in_zihanki" value="0" readonly size="2">
+      <input type="reset" value="RESET" class="reset">
+    </form>
+
+    <form id="pocket_coins">
+      <input type="button" class="10yen">
+      <input type="button" class="50yen">
+      <input type="button" class="100yen">
+      <input type="button" class="500yen">
+      <input type="button" class="1000yen">
+    </form>
+    <br>
+    <form name="log">
+      <textarea name="text_log" cols="50" rows="5" readonly style="resize:none; overflow:auto;" >Hello</textarea>
+    </form>
+
+    <div>
+      <table border="1">
+        <tr>
+          <th>10yen</th>
+          <th>50yen</th>
+          <th>100yen</th>
+          <th>500yen</th>
+          <th>1000yen</th>
+        </tr>
+        <tr name="num">
+          <td><div class="10yen"></div></td>
+          <td><div class="50yen"></div></td>
+          <td><div class="100yen"></div></td>
+          <td><div class="500yen"></div></td>
+          <td><div class="1000yen"></div></td>
+        </tr>
+      </table>
+    </div>
+
+    <div >
+      <table border="1">
+        <tr>
+          <th>cola</th>
+          <th>greentea</th>
+          <th>water</th>
+        </tr>
+        <tr name="num">
+          <td><div class="cola"></div></td>
+          <td><div class="greentea"></div></td>
+          <td><div class="water"></div></td>
+        </tr>
+      </table>
+    </div>
+
+    <form>
+      <input type="button" value="REPLANISHMENT" id="replanishment">
+    </form>
+
+
+    <script src="main.js"></script>
+
+
+  </body>
+</html>
